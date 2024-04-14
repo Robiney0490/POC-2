@@ -1,0 +1,33 @@
+<br>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Buyer</a></li>
+        <li class="breadcrumb-item"><a routerLink="/buyer">Products</a></li>
+    </ol>
+    <button (click)="goToHomePage()">Go to Home Page</button>
+        <br><br><br>
+</nav>
+<div class="row">
+    <div class="col-sm-4 product" *ngFor="let product of all_products;">
+        <div class="card">
+            <img [src]="product.uploadPhoto" class="card-img-top" [alt]="product.name">
+            <div class="card-body">
+                <h4 class="card-title">{{product.name}}</h4>
+                <p><span class="float-left"><strong>MRP</strong>: <del>{{product.mrp}}</del></span> <span class="float-right"><strong>DP</strong>:
+                        {{product.dp}}</span></p>
+                <br>
+                <p class="card-text product-desc">{{product.productDesc}}</p>
+                <div class=" float-left" (click)="addToCart(product.id)"></div>
+                <button class="btn btn-primary float-right" (click)="addToCart(product.id)"> <i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i>&nbsp;Add to Cart</button>
+               
+<p>Cart Item Count: {{ cartItemCount }}</p>
+                <div class="card-footer">
+                    
+                    <div class="wcf-right"><a href="#" class="buy-btn"><i class="fa fa-heart fa-3x" aria-hidden="true"></i></a></div>
+                    
+                    
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

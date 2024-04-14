@@ -1,0 +1,680 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cow milk",
+      "uploadPhoto": "https://horizon.com/wp-content/uploads/fat-free-milk-01.png",
+      "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+      "mrp": "300",
+      "dp": "199",
+      "status": "publish"
+    },
+    {
+      "id": 2,
+      "name": "Organic Cheese",
+      "uploadPhoto": "https://nancysyogurt.com/wp-content/uploads/2017/08/Organic-Cottage-Cheese-Lowfat-1.png",
+      "productDesc": "Organic milk cheese, crafted from premium organic cow milk, embodies purity ",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 3,
+      "name": "Dairy Ice Cream",
+      "uploadPhoto": "https://www.prairiefarms.com/wp-content/uploads/2023/06/072730720015-1024x1024.png",
+      "productDesc": "Dairy ice cream, a beloved frozen dessert, is crafted from wholesome dairy ingredients.",
+      "mrp": "500",
+      "dp": "399",
+      "status": "publish"
+    },
+    {
+      "id": 4,
+      "name": "Aqua Glow",
+      "uploadPhoto": "https://www.etos.nl/dw/image/v2/BCTN_PRD/on/demandware.static/-/Sites-etos-master-catalog/default/dw4d79d7f7/images/120545540/120545540_MCM_PACK_137365.png?sw=1024",
+      "productDesc": "\"Aqua Glow\" typically refers to a skincare product or makeup line designed to enhance the skin's hydration",
+      "mrp": "500",
+      "dp": "399",
+      "status": "publish"
+    },
+    {
+      "id": 5,
+      "name": "Lipstick",
+      "uploadPhoto": "https://images-static.nykaa.com/media/catalog/product/1/e/1e95f2e8906087777786%20(1).jpg",
+      "productDesc": "Lipstick, a cosmetic staple, is a colored product applied to the lips to enhance their appearance. ",
+      "mrp": "700",
+      "dp": "499",
+      "status": "inactive"
+    },
+    {
+      "id": 6,
+      "name": "Face Wash",
+      "uploadPhoto": "https://gunacosmetics.com/gunacosmetics-files/2021/07/Mamaearth-4-1536x1536.jpg",
+      "productDesc": "Face wash, a fundamental part of skincare routines, is a cleansing product.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "darft"
+    },
+    {
+      "id": 7,
+      "name": "Body Wash",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61A9JTb8UeL._SX679_PIbundle-3,TopRight,0,0_AA679SH20_.jpg",
+      "productDesc": "Body Wash is a skincare product formulated with natural plant extracts, botanical oils, and other herbal ingredients ",
+      "mrp": "245",
+      "dp": "199",
+      "status": "publish"
+    },
+    {
+      "id": 8,
+      "name": "Herbal Soap",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/81FegJ7lisL._SX679_PIbundle-4,TopRight,0,0_AA679SH20_.jpg",
+      "productDesc": "Herbal soap is a natural cleansing product made primarily from botanical ingredients, plant extracts, and essential oils.",
+      "mrp": "500",
+      "dp": "399",
+      "status": "publish"
+    },
+    {
+      "id": 9,
+      "name": "Herbal Serum",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61ey4InpC9L._SX679_.jpg",
+      "productDesc": "Herbal serum is a skincare product formulated with natural plant extracts, botanical oils,",
+      "mrp": "345",
+      "dp": "299",
+      "status": "publish"
+    },
+    {
+      "id": 10,
+      "name": "Super Jaggery Powder",
+      "uploadPhoto": "https://www.consciousfood.com/cdn/shop/files/JAGGERY_919ac53c-b9c2-4232-b420-be772d361c4b.png?v=1697268374&width=713",
+      "productDesc": "Super jaggery is a healthier alternative to refined sugar, made from concentrated sugarcane juice with minimal processing.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "inactive"
+    },
+    {
+      "id": 11,
+      "name": "Veggie Ragi Dosa",
+      "uploadPhoto": "https://www.consciousfood.com/cdn/shop/files/SPROUTED-RAGI-POWDERfront_8__4_11zon_261d00bb-1963-44d9-9add-fe3c0409aa78.jpg?v=1697268386&width=713",
+      "productDesc": "Multigrain dosa is a savory Indian pancake made from a batter of fermented grains like rice, urad dal, and various millets or pulses. ",
+      "mrp": "150",
+      "dp": "99",
+      "status": "inactive"
+    },
+    {
+      "id": 12,
+      "name": "Multigrain Dosa",
+      "uploadPhoto": "https://www.consciousfood.com/cdn/shop/files/SPROUTED-RAGI-POWDERfront_4__8_11zon_1b89dfa4-90b3-48ef-a27a-1413e27e2752.jpg?v=1697268362&width=713",
+      "productDesc": "Ragi powder is a nutritious flour made from finely ground finger millet grains, packed with fiber, protein, and essential nutrients. ",
+      "mrp": "500",
+      "dp": "399",
+      "status": "inactive"
+    },
+    {
+      "id": 13,
+      "name": "Organic Cinnamon Bark",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61Yx8OZvbgL._SX679_.jpg",
+      "productDesc": "Organic Cinnamon Bark, derived from the seeds of the Elettaria Cinnamon plant, is cultivated without synthetic pesticides or fertilizers",
+      "mrp": "300",
+      "dp": "199",
+      "status": "publish"
+    },
+    {
+      "id": 14,
+      "name": "Organic Pepper Powder",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61sMmLGUMbL._SX679_.jpg",
+      "productDesc": "Organic black pepper, derived from the dried berries of the Piper nigrum plant cultivated without synthetic pesticides or fertilizers",
+      "mrp": "300",
+      "dp": "200",
+      "status": "publish"
+    },
+    {
+      "id": 15,
+      "name": "Organic clove",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61QHLWp68dL._SX679_.jpg",
+      "productDesc": "Organic clove, derived from the flower buds of the clove tree (Syzygium aromaticum), is cultivated without synthetic pesticides or fertilizers",
+      "mrp": "350",
+      "dp": "200",
+      "status": "publish"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/07/2019"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 3,
+        "name": "Metro Living Self Design Pillows Cover",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+        "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+        "mrp": "500",
+        "dp": "399",
+        "status": "draft"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "1/27/2024"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "contact": "86744645764",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 34
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "30/3/2024"
+    },
+    {
+      "id": 16,
+      "userId": 4,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Cow milk",
+        "uploadPhoto": "https://klcode-images.imgix.net/1461158229fatfreemilk.png?auto=compress",
+        "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+        "mrp": "250",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "contact": "86744645764",
+      "dateTime": "31/3/2024"
+    },
+    {
+      "id": 17,
+      "userId": 4,
+      "sellerId": 2,
+      "product": {
+        "id": 5,
+        "name": "Lipstick",
+        "uploadPhoto": "https://images-static.nykaa.com/media/catalog/product/1/e/1e95f2e8906087777786%20(1).jpg",
+        "productDesc": "Lipstick, a cosmetic staple, is a colored product applied to the lips to enhance their appearance. ",
+        "mrp": "700",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "contact": "86744645764",
+      "dateTime": "31/3/2024"
+    },
+    {
+      "id": 18,
+      "userId": 4,
+      "sellerId": 2,
+      "product": {
+        "id": 11,
+        "name": "Veggie Ragi Dosa",
+        "uploadPhoto": "https://www.consciousfood.com/cdn/shop/files/SPROUTED-RAGI-POWDERfront_8__4_11zon_261d00bb-1963-44d9-9add-fe3c0409aa78.jpg?v=1697268386&width=713",
+        "productDesc": "Multigrain dosa is a savory Indian pancake made from a batter of fermented grains like rice, urad dal, and various millets or pulses. ",
+        "mrp": "150",
+        "dp": "99",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "contact": "86744645764",
+      "dateTime": "31/3/2024"
+    },
+    {
+      "id": 19,
+      "userId": 4,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Cow milk",
+        "uploadPhoto": "https://klcode-images.imgix.net/1461158229fatfreemilk.png?auto=compress",
+        "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+        "mrp": "250",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "somthing.",
+        "addLine2": "near about",
+        "city": "delhi",
+        "state": "UP",
+        "zipCode": "2359865"
+      },
+      "contact": "86744645764",
+      "dateTime": "31/3/2024"
+    },
+    {
+      "id": 20,
+      "userId": 203,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Cow milk",
+        "uploadPhoto": "https://klcode-images.imgix.net/1461158229fatfreemilk.png?auto=compress",
+        "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+        "mrp": "250",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "CHROMPET STREET , chrompet nagar",
+        "addLine2": "chrompet area",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "60078"
+      },
+      "contact": "3456781",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 21,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 2,
+        "name": "Organic Cheese Ckae",
+        "uploadPhoto": "https://nancysyogurt.com/wp-content/uploads/2017/08/Organic-Cottage-Cheese-Lowfat-1.png",
+        "productDesc": "Organic milk cheese, crafted from premium organic cow milk, embodies purity ",
+        "mrp": "123",
+        "dp": "99",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 22,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 13,
+        "name": "Organic Cinnamon Bark",
+        "uploadPhoto": "https://m.media-amazon.com/images/I/61Yx8OZvbgL._SX679_.jpg",
+        "productDesc": "Organic Cinnamon Bark, derived from the seeds of the Elettaria Cinnamon plant, is cultivated without synthetic pesticides or fertilizers",
+        "mrp": "300",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 23,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Cow milk",
+        "uploadPhoto": "https://horizon.com/wp-content/uploads/fat-free-milk-01.png",
+        "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+        "mrp": "250",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 24,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Cow milk",
+        "uploadPhoto": "https://horizon.com/wp-content/uploads/fat-free-milk-01.png",
+        "productDesc": "Cow milk, a nutrient-rich liquid from female cows, boasts high protein, calcium, vitamins (like D and B12)",
+        "mrp": "250",
+        "dp": "199",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 25,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 9,
+        "name": "Herbal Serum",
+        "uploadPhoto": "https://m.media-amazon.com/images/I/61ey4InpC9L._SX679_.jpg",
+        "productDesc": "Herbal serum is a skincare product formulated with natural plant extracts, botanical oils,",
+        "mrp": "345",
+        "dp": "299",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 26,
+      "userId": 204,
+      "sellerId": 2,
+      "product": {
+        "id": 4,
+        "name": "Aqua Glow",
+        "uploadPhoto": "https://www.etos.nl/dw/image/v2/BCTN_PRD/on/demandware.static/-/Sites-etos-master-catalog/default/dw4d79d7f7/images/120545540/120545540_MCM_PACK_137365.png?sw=1024",
+        "productDesc": "\"Aqua Glow\" typically refers to a skincare product or makeup line designed to enhance the skin's hydration",
+        "mrp": "500",
+        "dp": "399",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "`banglore street ",
+        "addLine2": "banglore nagar",
+        "city": "banglore",
+        "state": "Karnataka",
+        "zipCode": "60089"
+      },
+      "contact": "667779990",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 27,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 5,
+        "name": "Lipstick",
+        "uploadPhoto": "https://images-static.nykaa.com/media/catalog/product/1/e/1e95f2e8906087777786%20(1).jpg",
+        "productDesc": "Lipstick, a cosmetic staple, is a colored product applied to the lips to enhance their appearance. ",
+        "mrp": "700",
+        "dp": "499",
+        "status": "inactive"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    },
+    {
+      "id": 28,
+      "userId": 112,
+      "sellerId": 2,
+      "product": {
+        "id": 3,
+        "name": "Dairy Ice Cream",
+        "uploadPhoto": "https://www.prairiefarms.com/wp-content/uploads/2023/06/072730720015-1024x1024.png",
+        "productDesc": "Dairy ice cream, a beloved frozen dessert, is crafted from wholesome dairy ingredients.",
+        "mrp": "500",
+        "dp": "399",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "kamarajar street , Periyar nagar",
+        "addLine2": "Nesapakkam",
+        "city": "chennai",
+        "state": "Tamil Nadu",
+        "zipCode": "600078"
+      },
+      "contact": "86744645764",
+      "dateTime": "1/4/2024"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": 2,
+      "name": "Water Bottle",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/bottle/w/5/g/1000-cello-h2o-cello-h2o-water-bottel-cello-original-imaeqtj3vyxyehmn.jpeg",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": 3,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "draft"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ]
+}
